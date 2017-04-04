@@ -2,7 +2,7 @@
 
 if [ -z "$descarga" ]
 then
-	echo "Salgo, no URL"
+	echo "Salgo, Debes especificar URL"
 	exit 2
 else
 	cd /var/www && wget --no-check-certificate -O descarga.tar.gz $descarga 
